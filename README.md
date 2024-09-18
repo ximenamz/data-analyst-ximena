@@ -22,7 +22,7 @@ The City of Vancouver Employee Remuneration and Expenses dataset contains inform
 1. **Data Collection and Preparation:**
    - Download data from the official Vancouver Open Data portal.
    - Initial cleaning using Python's Pandas library.
-
+![Visualization](https://github.com/ximenamz/data-analyst-ximena/blob/main/Picture7.png)
 2. **Descriptive Statistics:**
    - Calculate summary statistics, such as average salaries by department.
 
@@ -31,7 +31,7 @@ The City of Vancouver Employee Remuneration and Expenses dataset contains inform
      - **Histograms and Boxplots:** Analyze the distribution of continuous variables such as *Gross Salary* and *Representation Expenses* to identify central tendencies and outliers across different departments.
      - **Bar Charts:** Display the average salary and expense distribution across various departments, helping to identify discrepancies and trends in compensation.
      - **Heatmaps:** Visualize correlations between numerical variables like *Gross Salary*, *Representation Expenses*, and *Years of Service* to uncover relationships between seniority and compensation.
-
+![Visualization](https://github.com/ximenamz/data-analyst-ximena/blob/main/Picture15.png)
 4. **Salary and Expense Analysis:**
    - Compare salary and expense patterns across various factors:
      - **By Department:** Analyze if there are significant differences in average salaries and expenses between departments, identifying high and low-paying departments.
@@ -152,6 +152,7 @@ The analysis will utilize multiple datasets, including:
 - **Expense Data:** Detailed records of employee representation expenses.
 - **Pipeline Logs:** Logs from AWS services such as S3, Glue, CloudWatch, and CloudTrail to monitor data flow and potential issues in the pipeline.
 - **Employee Feedback:** (Optional) Any qualitative data regarding employee satisfaction with salary and expenses.
+![Visualization](https://github.com/ximenamz/data-analyst-ximena/blob/main/2_Picture6.png)
 
 ## Methodology
 1. **Data Collection and Preparation:**
@@ -169,6 +170,7 @@ The analysis will utilize multiple datasets, including:
 4. **Root Cause Analysis:**
    - Investigate the root causes of data pipeline delays by reviewing AWS CloudWatch and CloudTrail logs.
    - Use techniques like the "5 Whys" or Fishbone Diagram to systematically investigate potential causes of salary or data discrepancies.
+![Visualization](https://github.com/ximenamz/data-analyst-ximena/blob/main/2_Picture7.png)
 
 5. **Segmentation Analysis:**
    - Segment employees based on salary ranges, department, and tenure to analyze differing impacts on compensation and expense trends.
@@ -210,6 +212,7 @@ The data wrangling process will involve multiple datasets, including:
 - **Employee Salary Data:** Records of employee gross salary, department, and tenure.
 - **Expense Data:** Detailed records of employee representation expenses.
 - **Pipeline Logs:** Logs from AWS services such as S3 and Glue related to data ingestion and processing.
+![Visualization](https://github.com/ximenamz/data-analyst-ximena/blob/main/Picture8.png)
 
 ## Methodology
 1. **Data Collection:**
@@ -224,6 +227,7 @@ The data wrangling process will involve multiple datasets, including:
    - Address missing values through imputation or exclusion based on the significance of the data.
    - Remove duplicate records and correct inconsistencies in formats (e.g., date formats, salary units).
    - Normalize categorical variables such as department names and job roles to ensure consistency.
+![Visualization](https://github.com/ximenamz/data-analyst-ximena/blob/main/Picture10.png)
 
 4. **Data Transformation:**
    - Convert data types to suitable formats for analysis (e.g., date fields for tenure, salary as numerical values).
@@ -233,6 +237,7 @@ The data wrangling process will involve multiple datasets, including:
 5. **Data Consolidation:**
    - Merge datasets to create a unified view of employee salary and expenses, ensuring all data is accurately linked through unique identifiers (e.g., employee ID).
    - Combine different sources of data to provide a holistic view of employee compensation, expenses, and job roles.
+![Visualization](https://github.com/ximenamz/data-analyst-ximena/blob/main/Picture11.png)
 
 7. **Documentation and Validation:**
    - Document the data wrangling process, including data sources, cleaning steps, and transformations applied to the dataset.
@@ -272,8 +277,10 @@ As the City of Vancouver continues to process large volumes of employee salary a
 The project will focus on the following key areas:
 - **Data Profiling:** Assessing the current state of the employee salary and expense data to determine its quality.
 - **Data Cleansing:** Developing processes to remove inaccuracies, duplicates, and inconsistent formats.
+![Visualization](https://github.com/ximenamz/data-analyst-ximena/blob/main/3_Picture3.png)
 - **Data Validation:** Establishing rules and validation checks to ensure data accuracy and consistency.
 - **Monitoring and Reporting:** Creating dashboards to monitor data quality metrics and track performance over time.
+![Visualization](https://github.com/ximenamz/data-analyst-ximena/blob/main/2_Picture6.png)
 - **Training and Awareness:** Educating staff on best practices for data entry and quality control.
 
 ## Methodology
