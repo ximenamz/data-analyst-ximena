@@ -16,6 +16,7 @@ The City of Vancouver Employee Remuneration and Expenses dataset contains inform
 - **Gross Salary:** The total annual salary before deductions.
 - **Representation Expenses:** Additional expenses reported by employees.
 - **Start Date:** The date the employee started working in their current position.
+![Visualization](https://github.com/ximenamz/data-analyst-ximena/blob/main/Picture5.png)
 
 ## Methodology
 1. **Data Collection and Preparation:**
