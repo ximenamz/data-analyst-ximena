@@ -4,9 +4,45 @@ Exploratory Data Analysis
 - Project Title: Exploratory Data Analysis: Employee Remuneration Data for the City of Vancouver
 - Objective: Perform an exploratory data analysis (EDA) to uncover trends, patterns, and insights in employee remuneration data. The analysis will focus on cleaning, understanding salary distributions, and visualizing key factors such as department salary averages, employee seniority, and other factors influencing pay.
 - Dataset: The City of Vancouver Employee Remuneration and Expenses dataset contains information on the salaries and representation expenses of employees earning over $75,000 annually. It includes details such as:
-•	Employee ID: Unique identifier for each employee.
-•	Department: The department in which the employee works.
-•	Gross Salary: The total annual salary before deductions.
-•	Representation Expenses: Additional expenses reported by employees.
-•	Start Date: The date the employee started working in their current position.
+- •	Employee ID: Unique identifier for each employee.
+- •	Department: The department in which the employee works.
+- •	Gross Salary: The total annual salary before deductions.
+- •	Representation Expenses: Additional expenses reported by employees.
+- •	Start Date: The date the employee started working in their current position.
+- ## Methodology:
+- 1-	Data Collection and Preparation:
+- o	Download data from the official Vancouver Open Data portal.
+- o	Initial cleaning using Python's Pandas library.
+- 2-	Descriptive Statistics:
+- o	Calculate summary statistics, such as average salaries by department.
+- 3-	Data Visualization:
+- o	Create visualizations to illustrate key insights from the City of Vancouver employee remuneration and expense data:
+- • Histograms and Boxplots: Analyze the distribution of continuous variables such as Gross Salary and Representation Expenses to identify central tendencies and outliers across different departments.
+- • Bar Charts: Display the average salary and expense distribution across various departments, helping to identify discrepancies and trends in compensation.
+- • Heatmaps: Visualize correlations between numerical variables like Gross Salary, Representation Expenses, and Years of Service to uncover relationships between seniority and compensation.
+- 4-	Survival Analysis:
+- o	Compare salary and expense patterns across various factors:
+- By Department: Analyze if there are significant differences in average salaries and expenses between departments, identifying high and low paying departments.
+- By Job Role: Compare salaries and expenses across different job roles or levels within the organization to identify variations in compensation structures.
+- 5-	Insights and Findings:
+- o	Summarize the findings based on data visualizations and statistical analyses, highlighting notable trends and patterns in employee remuneration and expenses, Departmental Differences, Representation Expenses, Gender or Role Differences.
+- 6-	Conclusion:
+- o	Discuss the implications of the findings and suggest further analyses or data-driven decisions:
+- • Departmental Adjustments: Recommend a review of compensation policies for departments with lower salaries to ensure fair remuneration.
+- • Expense Monitoring: Suggest implementing stricter guidelines for representation expenses, particularly for higher salary groups.
+- • Further Analysis: Explore the possibility of building predictive models to identify factors most strongly associated with higher salaries or higher expenses.
+- • Long-Term Strategy: Recommend conducting a follow-up analysis to track changes in remuneration trends, particularly in the post-pandemic period.
+-
+- ## Tools and Technologies:
+- •	Python (Pandas): For tasks such as data loading, cleaning, and analysis, particularly working with the employee remuneration dataset.
+- •	AWS Services:
+-  o	Amazon S3: For storing the employee remuneration and expenses dataset.
+-  o	AWS Glue: For creating and managing data pipelines, including ETL processes (Extract, Transform, Load).
+-  o	Amazon CloudWatch: For monitoring the data pipeline and controlling costs.
+-  o	AWS CloudTrail: For logging and security monitoring, tracking activities within your S3 bucket.
+-  •	Jupyter Notebook: Used for interactive data exploration and analysis.
+-  ## Deliverables:
+-  •	A comprehensive Jupyter Notebook that documents all steps of the analysis, including code, data cleaning, visualizations, and narrative explanations of findings.
+-  •	Screenshots and documentation of the AWS services used, including S3, Glue, CloudWatch, and CloudTrail configurations.
+-  This project highlights your ability to work with data, AWS services, and Python, showcasing both your technical and analytical skills, making it an excellent addition to your data analyst portfolio.
 
