@@ -16,13 +16,16 @@ The City of Vancouver Employee Remuneration and Expenses dataset contains inform
 - **Gross Salary:** The total annual salary before deductions.
 - **Representation Expenses:** Additional expenses reported by employees.
 - **Start Date:** The date the employee started working in their current position.
+  
 ![Visualization](https://github.com/ximenamz/data-analyst-ximena/blob/main/Picture5.png)
 
 ## Methodology
 1. **Data Collection and Preparation:**
    - Download data from the official Vancouver Open Data portal.
    - Initial cleaning using Python's Pandas library.
-![Visualization](https://github.com/ximenamz/data-analyst-ximena/blob/main/Picture7.png)
+     
+![graphic bars](https://github.com/ximenamz/data-analyst-ximena/blob/main/Picture7.png)
+
 2. **Descriptive Statistics:**
    - Calculate summary statistics, such as average salaries by department.
 
@@ -31,7 +34,9 @@ The City of Vancouver Employee Remuneration and Expenses dataset contains inform
      - **Histograms and Boxplots:** Analyze the distribution of continuous variables such as *Gross Salary* and *Representation Expenses* to identify central tendencies and outliers across different departments.
      - **Bar Charts:** Display the average salary and expense distribution across various departments, helping to identify discrepancies and trends in compensation.
      - **Heatmaps:** Visualize correlations between numerical variables like *Gross Salary*, *Representation Expenses*, and *Years of Service* to uncover relationships between seniority and compensation.
+
 ![Visualization](https://github.com/ximenamz/data-analyst-ximena/blob/main/Picture15.png)
+
 4. **Salary and Expense Analysis:**
    - Compare salary and expense patterns across various factors:
      - **By Department:** Analyze if there are significant differences in average salaries and expenses between departments, identifying high and low-paying departments.
